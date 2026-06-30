@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 10% auto;
+    border: dotted 10px black;
+    padding: 70px;
+}
+
+.img {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.img img {
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.img :hover {
+    transform: scale(1.15);
+}
+
+.titulo_produto {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.descr_produto {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    color: rgb(66, 64, 64);
+    padding-bottom: 15px;
+}
+
+.btnSomar button {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.btnSubtrair button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.btnSomar {
+    justify-content: center;
+    display: flex;
+}
+
+.btnSubtrair {
+    justify-content: center;
+    display: flex;
+}
